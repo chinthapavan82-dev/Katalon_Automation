@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="navigations" time="38.933" tests="3" failures="0" errors="0">
+   <testsuite name="navigations" tests="3" failures="0" errors="0" time="38.933" skipped="0" timestamp="2025-09-03T13:46:39.142Z" hostname="chint - 192.168.1.5" id="Test Suites/navigations">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\chint\\Katalon Studio\\Pavan_Test\\Reports\\20250903_191634\\navigations\\20250903_191634"/>
+         <property name="logFiles" value="C:\\Users\\chint\\Katalon Studio\\Pavan_Test\\Reports\\20250903_191634\\navigations\\20250903_191634\\console0.log, C:\\Users\\chint\\Katalon Studio\\Pavan_Test\\Reports\\20250903_191634\\navigations\\20250903_191634\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="chint - 192.168.1.5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.104"/>
+         <property name="userFullName" value="Chintha Pavan"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="95db4455832a6fac59fe728f26da2f0a"/>
+         <property name="projectName" value="Pavan_Test"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login" time="13.455" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[03-09-2025T19:16:39 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+03-09-2025T19:16:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-09-2025T19:16:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-09-2025T19:16:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-09-2025T19:16:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-09-2025T19:16:43 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+03-09-2025T19:16:45 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+03-09-2025T19:16:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+03-09-2025T19:16:46 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+03-09-2025T19:16:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+03-09-2025T19:16:47 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+03-09-2025T19:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Password_oxd-button oxd-button--medi_8860b7")): Object: 'Object Repository/Page_OrangeHRM/button_Password_oxd-button oxd-button--medi_8860b7' is clicked on
+
+03-09-2025T19:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Password_oxd-button oxd-button--medi_8860b7' is clicked on
+
+03-09-2025T19:16:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2025T19:16:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2025T19:16:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-09-2025T19:16:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/navigatetoforgetpassword" time="15.371" classname="Test Cases/navigatetoforgetpassword" status="PASSED">
+         <system-out><![CDATA[03-09-2025T19:16:53 - [TEST_CASE][PASSED] - Test Cases/navigatetoforgetpassword: Test Cases/navigatetoforgetpassword
+
+03-09-2025T19:16:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-09-2025T19:16:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-09-2025T19:16:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-09-2025T19:16:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-09-2025T19:16:54 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+03-09-2025T19:16:57 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+03-09-2025T19:16:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2025T19:17:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2025T19:17:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/forgetpassword")): Object: 'Object Repository/Page_OrangeHRM/forgetpassword' is clicked on
+
+03-09-2025T19:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/forgetpassword' is clicked on
+
+03-09-2025T19:17:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2025T19:17:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2025T19:17:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-09-2025T19:17:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigate_URL" time="9.42" classname="Test Cases/Navigate_URL" status="PASSED">
+         <system-out><![CDATA[03-09-2025T19:17:08 - [TEST_CASE][PASSED] - Test Cases/Navigate_URL: Test Cases/Navigate_URL
+
+03-09-2025T19:17:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-09-2025T19:17:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-09-2025T19:17:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-09-2025T19:17:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-09-2025T19:17:09 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+03-09-2025T19:17:12 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+03-09-2025T19:17:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-09-2025T19:17:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-09-2025T19:17:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-09-2025T19:17:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-09-2025T19:16:39 - [TEST_SUITE][PASSED] - navigations: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,69 @@
+2025-09-03 19:16:39.029 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/navigations
+2025-09-03 19:16:39.165 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Chintha Pavan
+2025-09-03 19:16:39.166 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Pavan_Test
+2025-09-03 19:16:39.167 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = chint - 192.168.1.5
+2025-09-03 19:16:39.168 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-03 19:16:39.169 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.5
+2025-09-03 19:16:39.170 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-03 19:16:39.804 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-03 19:16:39.804 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/login
+2025-09-03 19:16:40.370 DEBUG testcase.login                           - 1: openBrowser("")
+2025-09-03 19:16:40.674 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-09-03 19:16:40.725 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 03, 2025 7:16:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Sep 03, 2025 7:16:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-09-03 19:16:42.897 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 956e1bcd1a8db3e4b2d63c2a1e8048a9
+2025-09-03 19:16:42.899 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.104
+2025-09-03 19:16:42.900 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-09-03 19:16:42.901 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-03 19:16:42.918 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-03 19:16:43.001 DEBUG testcase.login                           - 2: navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+2025-09-03 19:16:45.425 DEBUG testcase.login                           - 3: setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_username"), Username)
+2025-09-03 19:16:46.835 DEBUG testcase.login                           - 4: setText(findTestObject("Object Repository/Page_OrangeHRM/input_Password_password"), Password)
+2025-09-03 19:16:47.508 DEBUG testcase.login                           - 5: click(findTestObject("Object Repository/Page_OrangeHRM/button_Password_oxd-button oxd-button--medi_8860b7"))
+2025-09-03 19:16:47.898 DEBUG testcase.login                           - 6: delay(5)
+2025-09-03 19:16:52.949 DEBUG testcase.login                           - 7: closeBrowser()
+2025-09-03 19:16:53.259 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/login
+2025-09-03 19:16:53.272 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-03 19:16:53.272 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/navigatetoforgetpassword
+2025-09-03 19:16:53.377 DEBUG testcase.navigatetoforgetpassword        - 1: openBrowser("")
+2025-09-03 19:16:53.388 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-09-03 19:16:53.392 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 03, 2025 7:16:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Sep 03, 2025 7:16:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-09-03 19:16:54.424 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7bf3f914fb633204102630ce1aca687d
+2025-09-03 19:16:54.425 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.104
+2025-09-03 19:16:54.426 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-09-03 19:16:54.427 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-03 19:16:54.429 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-03 19:16:54.467 DEBUG testcase.navigatetoforgetpassword        - 2: navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+2025-09-03 19:16:57.513 DEBUG testcase.navigatetoforgetpassword        - 3: delay(5)
+2025-09-03 19:17:02.532 DEBUG testcase.navigatetoforgetpassword        - 4: click(findTestObject("Object Repository/Page_OrangeHRM/forgetpassword"))
+2025-09-03 19:17:03.387 DEBUG testcase.navigatetoforgetpassword        - 5: delay(5)
+2025-09-03 19:17:08.409 DEBUG testcase.navigatetoforgetpassword        - 6: closeBrowser()
+2025-09-03 19:17:08.643 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/navigatetoforgetpassword
+2025-09-03 19:17:08.652 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-03 19:17:08.653 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Navigate_URL
+2025-09-03 19:17:08.735 DEBUG testcase.Navigate_URL                    - 1: openBrowser("")
+2025-09-03 19:17:08.738 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-09-03 19:17:08.740 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 03, 2025 7:17:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Sep 03, 2025 7:17:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-09-03 19:17:09.798 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 95db4455832a6fac59fe728f26da2f0a
+2025-09-03 19:17:09.799 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.104
+2025-09-03 19:17:09.800 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-09-03 19:17:09.801 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-03 19:17:09.802 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-03 19:17:09.833 DEBUG testcase.Navigate_URL                    - 2: navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+2025-09-03 19:17:12.842 DEBUG testcase.Navigate_URL                    - 3: delay(5)
+2025-09-03 19:17:17.854 DEBUG testcase.Navigate_URL                    - 4: closeBrowser()
+2025-09-03 19:17:18.075 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Navigate_URL
+2025-09-03 19:17:18.162 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-03 19:17:18.162 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/navigations
+2025-09-03 19:17:18.162 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

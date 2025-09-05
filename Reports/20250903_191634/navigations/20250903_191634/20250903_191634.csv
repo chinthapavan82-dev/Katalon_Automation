@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+navigations,Chrome 137.0.7151.104,,,03-09-2025 19:16:39,03-09-2025 19:17:18,39.020s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 137.0.7151.104,,,03-09-2025 19:16:39,03-09-2025 19:16:53,13.455s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.104,,,03-09-2025 19:16:40,03-09-2025 19:16:43,2.631s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 137.0.7151.104,,,03-09-2025 19:16:43,03-09-2025 19:16:45,2.424s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), Username)",Chrome 137.0.7151.104,,,03-09-2025 19:16:45,03-09-2025 19:16:46,1.407s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), Password)",Chrome 137.0.7151.104,,,03-09-2025 19:16:46,03-09-2025 19:16:47,0.672s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Password_oxd-button oxd-button--medi_8860b7""))",Chrome 137.0.7151.104,,,03-09-2025 19:16:47,03-09-2025 19:16:47,0.390s,PASSED
+delay(5),Chrome 137.0.7151.104,,,03-09-2025 19:16:47,03-09-2025 19:16:52,5.051s,PASSED
+closeBrowser(),Chrome 137.0.7151.104,,,03-09-2025 19:16:52,03-09-2025 19:16:53,0.308s,PASSED
+,,,,,,,
+Test Cases/navigatetoforgetpassword,Chrome 137.0.7151.104,,,03-09-2025 19:16:53,03-09-2025 19:17:08,15.371s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.104,,,03-09-2025 19:16:53,03-09-2025 19:16:54,1.085s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 137.0.7151.104,,,03-09-2025 19:16:54,03-09-2025 19:16:57,3.046s,PASSED
+delay(5),Chrome 137.0.7151.104,,,03-09-2025 19:16:57,03-09-2025 19:17:02,5.018s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/forgetpassword""))",Chrome 137.0.7151.104,,,03-09-2025 19:17:02,03-09-2025 19:17:03,0.853s,PASSED
+delay(5),Chrome 137.0.7151.104,,,03-09-2025 19:17:03,03-09-2025 19:17:08,5.022s,PASSED
+closeBrowser(),Chrome 137.0.7151.104,,,03-09-2025 19:17:08,03-09-2025 19:17:08,0.229s,PASSED
+,,,,,,,
+Test Cases/Navigate_URL,Chrome 137.0.7151.104,,,03-09-2025 19:17:08,03-09-2025 19:17:18,9.420s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.104,,,03-09-2025 19:17:08,03-09-2025 19:17:09,1.098s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 137.0.7151.104,,,03-09-2025 19:17:09,03-09-2025 19:17:12,3.008s,PASSED
+delay(5),Chrome 137.0.7151.104,,,03-09-2025 19:17:12,03-09-2025 19:17:17,5.012s,PASSED
+closeBrowser(),Chrome 137.0.7151.104,,,03-09-2025 19:17:17,03-09-2025 19:17:18,0.218s,PASSED
