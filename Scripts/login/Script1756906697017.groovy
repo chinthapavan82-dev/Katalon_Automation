@@ -30,6 +30,6 @@ WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_pa
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Password_oxd-button oxd-button--medi_8860b7'))
 
-WebUI.delay(4)
+WebUI.delay(3)
 WebUI.closeBrowser()
 
